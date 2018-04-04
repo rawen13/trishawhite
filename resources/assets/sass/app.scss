@@ -7,8 +7,21 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~fontawesome-pro-webfonts/scss/fontawesome';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+nav.navbar {
+    background: #fafafa;
+    color: #333;
+
+  a {
+    color: #333;
+  }
+    .navbar-brand {
+      img {
+        height: auto;
+        width: 60px;
+      }
+    }
+  }
+
+
