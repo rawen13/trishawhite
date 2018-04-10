@@ -83,7 +83,7 @@ class PagesController extends Controller
 
                 $data['content'][] = $obj;
 
-                if($filterTerm !== '') {
+                if($filterTerm) {
                     $first_name = $this->lists::query();
                     $last_name = $this->lists::query();
                     $first_name->where('first_name','like', $filterTerm);
