@@ -11,7 +11,7 @@ Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
 10: @import '~fontawesome-pro-webfonts/scss/fontawesome';
 11: 
 12: nav.navbar {
-13:     background: #fafafa;
+13:     background: #f5f8fa;
 14:     color: #333;
 
 Backtrace:
@@ -58,4 +58,4 @@ app.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import '~bootstrap/scss/bootstrap';\A 10: @import '~fontawesome-pro-webfonts/scss/fontawesome';\A 11: \A 12: nav.navbar {\A 13:     background: #fafafa;\A 14:     color: #333;"; }
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 9 of app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import '~bootstrap/scss/bootstrap';\A 10: @import '~fontawesome-pro-webfonts/scss/fontawesome';\A 11: \A 12: nav.navbar {\A 13:     background: #f5f8fa;\A 14:     color: #333;"; }

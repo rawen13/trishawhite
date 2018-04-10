@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home')->name('home');
+Route::post('/', 'PagesController@sort')->name('sort');
 Route::get('/about', 'AboutController@index')->name('about');
 Route::get('/contact', 'ContactController@index')->name('contact');
